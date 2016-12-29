@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Code Names</string>
+    <string name="new_grid">New board</string>
+    <string name="show">Unhide</string>
+</resources>
