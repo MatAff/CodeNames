@@ -3,10 +3,13 @@ package fieldgenerator;
 public class FieldGenerator
 {
     private int[] field;
+    private String startColor;
 
     public int[] getField() {
         return field;
     }
+
+    public String getStartColor() { return startColor; }
     
     private int getRandomInt(int minVal, int maxVal) {
 
@@ -25,7 +28,7 @@ public class FieldGenerator
         
         // Initialize field
         field = new int[25];
-        String startColor;
+
 
         // Set start color
         randomNumber = getRandomInt(0,1);

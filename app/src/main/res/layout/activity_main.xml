@@ -14,16 +14,17 @@
         android:text="@string/new_grid"
         android:id="@+id/newFieldButton"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#ffC0C0C0"/>
 
-    <!--<Button
+    <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/show"
-        android:id="@+id/unhideButton"
+        android:id="@+id/showButton"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />-->
+        android:layout_centerHorizontal="true" />
 
     <GridView
         android:layout_width="fill_parent"
@@ -37,5 +38,14 @@
         android:horizontalSpacing="2dp"
         android:textFilterEnabled="false"
         android:verticalSpacing="2dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startColor"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_toLeftOf="@+id/newFieldButton"
+        android:layout_alignParentTop="true" />
 
 </RelativeLayout>
